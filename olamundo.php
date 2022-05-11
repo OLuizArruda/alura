@@ -1,4 +1,3 @@
 <?php
 
-$resto = true;
-Echo gettype($resto);
+echo "Olá mundo!" . PHP_EOL;
