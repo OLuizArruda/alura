@@ -2,16 +2,36 @@
 
 <script>
 
+    function pulaLinha() {
+        document.write("<br>")
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        document.write("<br>")
+    }
+
     var ano = 2022;
 
-    document.write("Flávio tem " + (ano - 1977) + " anos");
-    document.write("<br>");
-    document.write("Luiz tem " + (ano - 1991) + " anos");
-    document.write("<br>");
-    document.write("Milena tem " + (ano - 1998)+ " anos");
-    document.write("<br>");
-    document.write("Cleide tem " + (ano - 1978) + " anos");
-    document.write("<br>");
+    mostra("Flávio tem " + (ano - 1977) + " anos");
+    
+    pulaLinha();
+    
+    mostra("Luiz tem " + (ano - 1991) + " anos");
+    
+    pulaLinha();
+    
+    mostra("Milena tem " + (ano - 1998)+ " anos");   
+    
+    pulaLinha();
+    
+    mostra("Cleide tem " + (ano - 1978) + " anos");
+    
+    pulaLinha();
+    
+    mostra("Olá Pessoal!");
+
+    pulaLinha();
 
     
     var idadeFlavio = 41;
