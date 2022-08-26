@@ -20,6 +20,27 @@ var pesoInformado = prompt (nome + ", qual o seu peso? sem ofensas :D");
 var imc = calculaImc(alturaInformada, pesoInformado);
 mostra(nome + ", o seu imc é de: " + imc);
 
+if (imc<=18.5){
+    mostra("Você está abaixo do peso ideal, melhor se cuidar");
+}
 
+if(imc>18.5 && imc<25){
+    mostra("Você está no peso ideal, parabens");
+}
+
+if(imc>25 && imc<30){
+    mostra("Você está no com excesso de peso, cuidado");
+}
+
+if(imc>30 && imc<35){
+    mostra("Você está Obeso, melhor se cuidar");
+}
+
+if(imc>35){
+    mostra("Você se encontra com obesidade extrema, melhor se cuidar agora!");
+}
+
+
+mostra("FIM");
 
 </script>
