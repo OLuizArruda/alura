@@ -1,0 +1,21 @@
+<meta charset = "UTF-8">
+
+<script>
+    function pulaLinha(){
+        document.write("<br>");
+    }
+
+    function mostra(frase){
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var limite = parseInt(prompt("ate que ano quer que eu conte?"));
+    var ano = 1930;
+
+    while(ano <= limite){
+
+        mostra("Teve copa em " + ano);
+        ano = ano + 4;
+    }
+</script>
