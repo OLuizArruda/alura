@@ -11,20 +11,20 @@
     }
 
     var numeroPensado = Math.round(Math.random() * 10);
-    var chute = parseInt(prompt("Chute um numero que vou pensar de 0 à 10"));
+    var tentativas = 1;
 
-    if (numeroPensado == chute){
-        mostra("Parabéns você acertou!!! eu pensei mesmo no numero " + numeroPensado);
-    } 
-    else { 
-        if (chute > numeroPensado){
-        mostra("Você errou! seu chute é muito alto, o numero que pensei foi o " + numeroPensado);    
-        }
+    while (tentativas <= 3){
 
-    else {
-        if (chute < numeroPensado){
-        mostra("Você errou! seu chute é muito baixo, o numero que pensei foi o " + numeroPensado);    
+        var chute = parseInt(prompt("Chute um numero que vou pensar de 0 à 10"));
+
+        if (numeroPensado == chute){
+            mostra("Parabéns você acertou!!! eu pensei mesmo no numero" + numeroPensado);
+        break;
+        } else { 
+            mostra("Você errou!");
         }
+        tentativas++;
     }
-}
+    
+    mostra("FIM!");
 </script>

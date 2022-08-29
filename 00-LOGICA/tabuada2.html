@@ -12,13 +12,16 @@
     }
     
     var contador = 1;
-    var resultado = parseInt(tabuada * resultado);
     
+        
     for(var tabuada = parseInt(prompt("Qual tabuada deseja ver hoje?")); contador<=10; contador++){
 
+        var resultado = tabuada * contador;
         mostra(tabuada + " x " + contador + " = " + resultado);
 
     }
+
+    
 
     mostra("Fim")
 
