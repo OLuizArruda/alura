@@ -1,7 +1,7 @@
 <?php
 
 $nome = 'Luiz antonio';
-//procurar se estring esta dentro de outra.
+//procurar se string esta dentro de outra.
 
 $eDaMinhaFamilia = str_contains($nome, 'Arruda');
 
