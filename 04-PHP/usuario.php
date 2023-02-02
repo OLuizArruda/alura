@@ -1,21 +1,28 @@
 <?php
 
-$email = "cannioficial@gmail.com";
-$senha = "12sdsdfsdf3";
+$nome = 'Vinícius Dias';
+$email = ' vinícius@alura.com.br ';
+$senha = 'áéíóú';
 
-//tamanho da string len = lenght
-if (strlen($senha) < 8) {
-    echo "Senha Insegura" . PHP_EOL;
-} else {
-    echo "Senha Segura" . PHP_EOL;
+echo mb_strlen($senha) . PHP_EOL;
+
+if (mb_strlen($senha) < 8) {
+    echo 'Senha insergura' . PHP_EOL;
 }
 
 $posicaoDoArroba = strpos($email, '@');
 
-//extrai pedaço do texto
-echo substr($email, 0, 5) . PHP_EOL;
+$usuario = substr($email, 0, $posicaoDoArroba);
+
+echo mb_strtoupper($usuario) . PHP_EOL;
 echo substr($email, $posicaoDoArroba + 1) . PHP_EOL;
 
+list($nome, $sobrenome) = explode(' ', $nome);
 
+echo 'Nome: ' . $nome . PHP_EOL;
+echo 'Sobrenome: ' . $sobrenome . PHP_EOL;
 
+$csv = 'Vinicius Dias,24,vinicius@alura.com.br';
+var_dump(explode(',', $csv));
 
+echo trim($email) . PHP_EOL;

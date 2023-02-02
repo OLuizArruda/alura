@@ -1,12 +1,11 @@
 <?php
 
-$nome = 'Luiz antonio';
-//procurar se string esta dentro de outra.
+$nome = 'Vinicius dos Santos';
 
-$eDaMinhaFamilia = str_contains($nome, 'Arruda');
+$ehDaMinhaFamilia = str_contains($nome, 'Dias');
 
-if ($eDaMinhaFamilia){
-    echo "$nome é da minha familia" . PHP_EOL;
+if ($ehDaMinhaFamilia) {
+    echo "$nome é da minha família" . PHP_EOL;
 } else {
-    echo "$nome não é da minha familia" . PHP_EOL;
+    echo "$nome não é da minha família" . PHP_EOL;
 }

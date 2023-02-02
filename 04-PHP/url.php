@@ -1,20 +1,19 @@
 <?php
 
-$url = "https://www.alura.com.br/";
+$url = 'http://alura.com.br/';
 
-//verifica começo string
-if (str_starts_with($url, "https")){
-    echo "É uma URL segura";
+if (str_starts_with($url, 'https')) {
+    echo 'É uma URL segura';
 } else {
-    echo "Não é uma URL segura";
+    echo 'Não é uma URL segura';
 }
 
 echo PHP_EOL;
 
-//verifica fim string
-if (str_ends_with($url, ".br")){
-    echo "É um dominio do Brasil";
+if (str_ends_with($url, '.br')) {
+    echo 'É um domínio do Brasil';
 } else {
-    echo "Não é um dominio do Brasil";
+    echo 'É não um domínio do Brasil';
 }
 
+echo PHP_EOL;
