@@ -3,19 +3,19 @@
 
 class Conta
 {
-    private string $cpfTitular;
-    private string $nomeTitular;
+    private string $titular;
+    //private string $nomeTitular;
     private float $saldo;
     private static $numeroDeContas = 0;
 
-    public function __construct(string $cpfTitular, string $nomeTitular)
+    public function __construct(Titular $titular)
     {
-        echo "Criando Nova Conta" . PHP_EOL;
-        $this->cpfTitular = $cpfTitular;
-        $this->validaNomeTitular ($nomeTitular);
-        $this->nomeTitular = $nomeTitular;
+     //   echo "Criando Nova Conta" . PHP_EOL;
+       // $this->cpfTitular = $cpfTitular;
+        //$this->validaNomeTitular ($nomeTitular);
+        //$this->nomeTitular = $nomeTitular;
+        $this->titular = $titular;
         $this->saldo = 0;
-        
         self::$numeroDeContas++;
     }
 
@@ -76,13 +76,7 @@ class Conta
         $this->nomeTitular;
     }
 
-    private function validaNomeTitular(string $nomeTitular)
-    {
-        if(strlen($nomeTitular) < 5){
-            echo "Nome precisa ter no mínimo 5 caracteres";
-            exit();
-        }
-    }
+   
 
     public static function recuperaNumeroDeContas(): int
     {
