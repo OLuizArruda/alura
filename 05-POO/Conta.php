@@ -82,4 +82,21 @@ class Conta
     {
         return self::$numeroDeContas;
     }
+
+public function recuperaNomeTitular(): string
+{
+    return $this->titular->recuperaNome();
+}
+
+public function recuperaCpfTitular(): string
+{
+    return $this->titular->recuperaCpf();
+}
+
+
+
+
+
+
+
 }
