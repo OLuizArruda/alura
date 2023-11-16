@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-16T13:31:42.410Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="9qZScWYFigxTm9inM0s1" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-16T18:23:09.656Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Sh7r3Y-H4EyKLtzCZp9r" version="22.1.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2261" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,8 +22,8 @@
         <mxCell id="gmkcOeyq3huJtDNITMZC-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-7" target="gmkcOeyq3huJtDNITMZC-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-7" value="iniciar a cobrança/contato" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="254" y="680" width="120" height="40" as="geometry" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-7" value="Iniciar a cobrança/contato" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-90" y="200" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="gmkcOeyq3huJtDNITMZC-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-11" target="gmkcOeyq3huJtDNITMZC-47">
           <mxGeometry relative="1" as="geometry" />
@@ -109,8 +109,8 @@
         <mxCell id="gmkcOeyq3huJtDNITMZC-43" value="Com desconto: em caso de cancelamento cancela o doc e baixa a fatura por lucro ou perda" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="670" y="360" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gmkcOeyq3huJtDNITMZC-45" value="contato com o beneficiario, via email, whats e telefone." style="rounded=1;whiteSpace=wrap;html=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="254" y="775.5" width="120" height="60" as="geometry" />
+        <mxCell id="gmkcOeyq3huJtDNITMZC-45" value="Contato com o beneficiario, via email, whats e telefone." style="rounded=1;whiteSpace=wrap;html=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-90" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gmkcOeyq3huJtDNITMZC-47" value="Anexo&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="153" y="530" width="70" height="30" as="geometry" />
@@ -124,7 +124,7 @@
         <mxCell id="gmkcOeyq3huJtDNITMZC-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gmkcOeyq3huJtDNITMZC-55" target="gmkcOeyq3huJtDNITMZC-72">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gmkcOeyq3huJtDNITMZC-55" value="baixa o documento" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gmkcOeyq3huJtDNITMZC-55" value="Baixa o documento" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="510" y="530" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="gmkcOeyq3huJtDNITMZC-59" value="Anexo" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
